@@ -1,3 +1,1 @@
-# concurrency
-# concurrency
-# stock
+# concurrency 연습
