@@ -1,9 +1,6 @@
 package com.example.stock.domain;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class Stock {
@@ -12,8 +9,11 @@ public class Stock {
     private long id;
 
     private long productId;
+
     private long quantity;
 
+    @Version
+    private Long version;
     public Stock() {
     }
 
