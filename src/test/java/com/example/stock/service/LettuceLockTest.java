@@ -41,7 +41,7 @@ class LettuceLockTest {
 
 
         @Test
-        @DisplayName("동시에 100개 요청 - 낙관락 적용")
+        @DisplayName("동시에 100개 요청 - Lettuce 적용")
         public void AtOnce100() throws InterruptedException {
             int threadcnt = 100;
             ExecutorService executorService = Executors.newFixedThreadPool(32); //비동기를 실행시켜주는 자바의 API
