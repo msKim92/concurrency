@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 /*
  * 실패시 재요청을 해야하므로
  */
-@Service
+//@Service
 public class OptimisticFacade {
     private OptimisticService optimisticService;
 
